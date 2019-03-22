@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+#Logo{
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    background-color: darkred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    height: 70px
+}
+
+#h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+li,p,h1,h2 {
+    color: white;
+}
