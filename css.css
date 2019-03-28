@@ -1,28 +1,46 @@
-body{
+body {
     background-color: black;
+    margin: 0px;
 }
-#Logo{
-    height: 200px;
-    width: 200px;
-    background-color: darkred;
-    display: flex;
+
+header {
+  display:flex;
     justify-content: center;
 }
-ul{
-    background-color: darkred;
+#Logo {
+    height: 200px;
+    width: 200px;
+}
+ul {
+    background-color: firebrick;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: black;
-    height: 70px
+    height: 70px;
+    list-style-type: none;
+    font-family: monospace;
 }
 
-#h1 {
-    color: white;
+h1 {
+    color: aliceblue;
     display: flex;
     justify-content: center;
+    font-family: monospace
 }
 
-li,p,h1,h2 {
+p,h1,h2 {
     color: white;
+}
+div{
+    width: 270px;
+    height: 270 px;
+    color: white;
+    border-color: firebrick;
+}
+h4 {
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-end
 }
