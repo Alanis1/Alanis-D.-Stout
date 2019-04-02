@@ -44,3 +44,21 @@ h4 {
     display: flex;
     justify-content: flex-end
 }
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace
+}
+#about-me {
+    height: 500px;
+    width: 800x;
+    border: solid 1px blue;
+}
+#Photo-of-me {
+    border: solid 5px firebrick;
+    background-color: white;
+    height: 270px;
+    width: 270px;
+}
