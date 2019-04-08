@@ -22,7 +22,7 @@ ul {
     font-family: monospace;
 }
 h1 {
-    color: aliceblue;
+    color: white;
     display: flex;
     justify-content: center;
     font-family: monospace
@@ -35,6 +35,8 @@ div{
     height: 270 px;
     color: white;
     border-color: firebrick;
+    display: flex;
+    justify-content: space-around
 }
 h4 {
     color: white;
@@ -49,15 +51,20 @@ h3 {
     text-align: center;
     font-family: monospace
 }
-#about-me {
-    height: 500px;
-    width: 800x;
-    display: flex;
-    justify-content: center;
+#About-Me {
+    width: 100%
 }
 #Photo-of-me {
     border: solid 5px firebrick;
     background-color: white;
     height: 270px;
     width: 270px;
+    display: flex;
+    align-content: space-between
+}
+#about-p {
+    width: 400px;
+    display: flex;
+
+
 }
