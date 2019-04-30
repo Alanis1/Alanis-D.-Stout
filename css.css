@@ -21,6 +21,19 @@ ul {
     list-style-type: none;
     font-family: monospace;
 }
+li {
+    color: black;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+li:hover {
+     color: white;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+a {
+    text-decoration: none;
+}
 h1 {
     color: white;
     display: flex;
@@ -30,7 +43,7 @@ h1 {
 p,h1,h2 {
     color: white;
 }
-div{
+#logo {
     width: 270px;
     height: 270 px;
     color: white;
@@ -53,6 +66,7 @@ h3 {
 }
 #About-Me {
     width: 100%
+
 }
 #Photo-of-me {
     border: solid 5px firebrick;
@@ -65,6 +79,5 @@ h3 {
 #about-p {
     width: 400px;
     display: flex;
-
-
 }
+
