@@ -4,8 +4,8 @@ body {
 }
 
 header {
-  display:flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #Logo {
     height: 200px;
@@ -16,6 +16,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
     color: black;
     height: 70px;
     list-style-type: none;
@@ -56,6 +57,8 @@ h4 {
     font-family: monospace;
     display: flex;
     justify-content: flex-end;
+    width: 400px;
+
 }
 h3 {
     color: white;
@@ -65,8 +68,8 @@ h3 {
     font-family: monospace
 }
 #About-Me {
-    width: 100%
-
+    width: 100%;
+    display: flex;
 }
 #Photo-of-me {
     border: solid 5px firebrick;
@@ -74,10 +77,12 @@ h3 {
     height: 270px;
     width: 270px;
     display: flex;
-    align-content: space-between
+    margin-left: 20px;
+    margin-right: 20px;
 }
-#about-p {
+#AboutMe {
     width: 400px;
     display: flex;
+    margin-left: 20px;
 }
 
