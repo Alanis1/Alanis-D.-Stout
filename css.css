@@ -97,5 +97,13 @@ h3 {
 #Occupation {
     display: flex;
     justify-content: center;
-    margin-left: 240px;
+    margin-left: 250px;
+}
+
+
+/*start of media query small screen*/
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: aquamarine
+    }
 }
