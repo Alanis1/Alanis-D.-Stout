@@ -90,16 +90,62 @@ h3 {
 #Portfolio-description {
     display: flex;
     justify-content: center;
+    margin-left: 100px
 }
-#Portfolio-items {
-
+#Portfolio-items1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px
+}
+#Portfolio-items2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #Occupation {
     display: flex;
     justify-content: center;
     margin-left: 250px;
 }
-
+#Artwork-1 {
+    border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    }
+#Artwork-2 {
+         border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    }
+#Artwork-3 {
+     border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+#Artwork-4{
+     border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+#Artwork-5 {
+    border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+#Artwork-6 {
+     border: solid 5px #D51920;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
 
 /*start of media query small screen*/
 @media only screen and (max-width: 700px) {
@@ -107,11 +153,15 @@ h3 {
         width: 700px;
     }
     #Photo-of-me {
-        height: 220px;
-        width: 220px
+        height: 200px;
+        width: 200px
     }
     #AboutMe {
-        margin-right: 20px
+        margin-right: 40px
     }
-    }
+#Last-updated {
+    margin-left: 5px;
 }
+#Portfolio-items {
+    margin-right: 20px
+    }
