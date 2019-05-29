@@ -73,95 +73,70 @@ h3 {
     width: 100%;
     display: flex;
 }
-#Photo-of-me {
-    border: solid 5px #D51920;
-    background-color: white;
-    height: 270px;
-    width: 270px;
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 #AboutMe {
     width: 400px;
     display: flex;
-    margin-left: 20px;
+    justify-content: center;
+    margin-left: 320px;
 }
 #Portfolio-description {
     display: flex;
     justify-content: center;
-    margin-left: 100px
 }
-#Portfolio-items1 {
+#Portfolio-items-1 {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
+     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 50px
-}
-#Portfolio-items2 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#Occupation {
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
+    margin-bottom: 20px;
 }
 #Artwork-1 {
+    border: solid 5px #D51920;
+   width: 150px;
+    height: 150px;
+    image-orientation: 90deg;
+}
+#Artwork-2 {
     border: solid 5px #D51920;
     background-color: white;
     width: 150px;
     height: 150px;
-    }
-#Artwork-2 {
-         border: solid 5px #D51920;
-    background-color: white;
-    width: 150px;
-    height: 150px;
-    }
+}
 #Artwork-3 {
      border: solid 5px #D51920;
     background-color: white;
     width: 150px;
     height: 150px;
 }
-#Artwork-4{
+#Portfolio-items-2 {
+    display: flex;
+    justify-content: space-between;
+     margin-left: 20px;
+    margin-right: 20px;
+}
+#Artwork-4 {
      border: solid 5px #D51920;
     background-color: white;
     width: 150px;
     height: 150px;
 }
-#Artwork-5 {
-    border: solid 5px #D51920;
-    background-color: white;
-    width: 150px;
-    height: 150px;
+#Occupation {
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
 }
-#Artwork-6 {
-     border: solid 5px #D51920;
-    background-color: white;
-    width: 150px;
-    height: 150px;
-}
-
 /*start of media query small screen*/
 @media only screen and (max-width: 700px) {
     body {
         width: 700px;
     }
     #Photo-of-me {
-        height: 200px;
-        width: 200px
+        height: 220px;
+        width: 220px
     }
     #AboutMe {
-        margin-right: 40px
+        margin-right: 20px
     }
-#Last-updated {
-    margin-left: 5px;
-}
-#Portfolio-items {
-    margin-right: 20px
+    #Last-updated {
+        margin-left: 20px;
     }
